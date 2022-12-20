@@ -17,7 +17,7 @@ function mail () {
     transporter.sendMail({
     
       from: 'Dron <victorcesar2031@gmail.com>',
-      to: 'victorcesar2031@gmail.com',
+      to: 'josebmonteiro86@gmail.com',
       subject: 'Olá',
       text: 'OLÁ, Dron',
       html: '<h1>Você é um gênio</h1>'
