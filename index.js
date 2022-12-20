@@ -1,5 +1,7 @@
 const nodemailer = require('nodemailer');
 
+const alfa = 'victorcesar2031@gmail.com';
+
 
 function mail () {
     let transporter = nodemailer.createTransport({
@@ -17,7 +19,7 @@ function mail () {
     transporter.sendMail({
     
       from: 'Dron <victorcesar2031@gmail.com>',
-      to: 'josebmonteiro86@gmail.com',
+      to: alfa,
       subject: 'Olá',
       text: 'OLÁ, Dron',
       html: '<h1>Você é um gênio</h1>'
